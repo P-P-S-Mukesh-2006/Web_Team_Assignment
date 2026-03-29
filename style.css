@@ -1,0 +1,33 @@
+.Home_head{
+    text-align: center;
+}
+#intro{
+    text-align: center;
+}
+
+#arrow{
+    transition: transform 0.3s ease;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+.show{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.dropdown-content{
+    position: absolute;
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
