@@ -1,5 +1,3 @@
-
-
 function toggleMenu() {
     const menu = document.getElementById("dropdown-content");
     const arrow = document.getElementById("arrow");
@@ -15,7 +13,12 @@ window.onclick=function(event) {
 
         document.getElementById("arrow").classList.remove("rotate");
     }
-  
+    
 }
 
-
+window.onload = function(){
+    document.getElementById("Home_head1").classList.add("show");
+    document.getElementById("Home_head2").classList.add("show");
+    document.getElementById("intro").classList.add("show");
+    document.getElementById("purpose").classList.add("show");
+}

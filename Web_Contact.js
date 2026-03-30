@@ -15,7 +15,9 @@ window.onclick=function(event) {
 
         document.getElementById("arrow").classList.remove("rotate");
     }
-  
+    
 }
-
-
+window.onload = function(){
+    document.getElementById("contact_heading1").classList.add("show");
+    document.getElementById("contact_heading2").classList.add("show");
+}

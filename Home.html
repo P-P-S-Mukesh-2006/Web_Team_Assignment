@@ -1,26 +1,41 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
-        <script src="Web.js"></script>
-        <h1 class="Home_head">Welcome to</h1>
-        <h1 class="Home_head">ITC Website</h1>
-        <h2 id="intro">Introduction</h2>
+        <link rel="stylesheet" href="style_Home.css">
+        <link rel="stylesheet" href="style_menu.css">
+        <script src="Web_Home.js"></script>
+        <h1 class="Home_head" id="Home_head1" >Welcome to</h1>
+        <h1 class="Home_head" id="Home_head2">ITC Website</h1>
+        
         
     </head>
 
     <body>
-        <div class="dropdown">
+        <h2 id="intro">Introduction</h2>
+        <div id="dropdown">
             <button class="dropbtn">
-                Menu <button  class="dropbtn" onclick="toggleMenu()"><span id="arrow">&#9662;</span></button>
+                Menu <button id="arrow" class="dropbtn" onclick="toggleMenu()"><span>&#9662;</span></button>
             </button>  
         
-        <div id="dropdown-content" class="dropdown-content">
-            <a href="Home.html">Home</a>
-            <a href="About.html">About</a>
-            <a href="Events.html">Events</a>
-            <a href="Meet_the_Team.html">Meet The Team</a>
+            <div id="dropdown-content" class="dropdown-content">
+            <a href="Home.html">Home<br></a>
+            <a href="About.html">About<br></a>
+            <a href="Events.html">Events<br></a>
+            <a href="Meet_the_Team.html"><span>Meet The Team<br></span></a>
             <a href="Contact.html">Contact</a>
-        </div>    
+            </div> 
         </div>
+        <p id="intro-content">
+            The Institute Technology Council (ITC) at IIT Bombay is a student-led body focused on promoting technical excellence and innovation across the campus. It serves as a platform to connect students, faculty, and industry, encouraging hands-on projects, research, and skill development. ITC plays a pivotal role in fostering a culture of innovation, collaboration, and technological exploration among students.
+        </p>
+        <h2 id="purpose">Purpose</h2>
+        <p id="purpose-content">The primary purpose of ITC is to:
+
+Encourage Innovation: Organize workshops, hackathons, and technical events to develop creative problem-solving skills.
+Support Student Projects: Provide guidance, mentorship, and resources for technical clubs, competitions, and research initiatives.
+Facilitate Industry Interaction: Bridge the gap between students and industry experts to expose students to real-world technology and trends.
+Promote Knowledge Sharing: Conduct seminars, lectures, and conferences to keep the student community updated on emerging technologies.
+        </p>
+
     </body>
 </html>

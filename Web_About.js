@@ -1,4 +1,9 @@
-
+window.onload = function(){
+    document.getElementById("Abt_head").classList.add("show");
+    document.getElementById("missions").classList.add("show");
+    document.getElementById("goals").classList.add("show");
+    document.getElementById("activities").classList.add("show");
+}
 
 function toggleMenu() {
     const menu = document.getElementById("dropdown-content");
@@ -15,7 +20,5 @@ window.onclick=function(event) {
 
         document.getElementById("arrow").classList.remove("rotate");
     }
-  
+    
 }
-
-

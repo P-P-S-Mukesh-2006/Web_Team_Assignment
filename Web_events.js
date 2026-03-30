@@ -1,5 +1,3 @@
-
-
 function toggleMenu() {
     const menu = document.getElementById("dropdown-content");
     const arrow = document.getElementById("arrow");
@@ -15,7 +13,5 @@ window.onclick=function(event) {
 
         document.getElementById("arrow").classList.remove("rotate");
     }
-  
+    
 }
-
-
