@@ -1,11 +1,18 @@
 #contact{
     text-align:center;
     position: relative;
-    top:50px;
+    top:30px;
     right:200px;
     display: inline-block;
+    opacity:0;
+    transform: translateY(20px);
 }
 
+#contact.show{
+    opacity:1;
+    transform: translateY(0px);
+    transition:all 1s ease 0.7s;
+}
 .contact_heading{
     opacity:0;
     transform: translateY(20px);
@@ -18,18 +25,20 @@
     opacity:1;
     transform: translateY(0px);
     transition: all 1s ease 0.2s;
+
 }
 
 #contact_heading2.show{
     opacity:1;
     transform: translateY(0px);
-    transition: all 2s ease 0.2s;
+    transition: all 1s ease 0.5s;
 }
 
 .details{
     font-size: 30px;
     position: relative;
     left: 500px;
+    margin:70px;
 }
 
 #name{
@@ -42,6 +51,8 @@
     width:400px;
     height: 40px;
     font-size: 20px;
+    position:relative;
+    
 }
 
 #message{
@@ -54,5 +65,12 @@
 #msg{
     position:relative;
     bottom:90px;
+}
+
+#submitbtn{
+    font-size: 20px;
+    position:relative;
+    left:500px;
+    top:20px;
 }
 

@@ -15,3 +15,9 @@ window.onclick=function(event) {
     }
     
 }
+
+window.onload = function(){
+    document.getElementById("events").classList.add("show");
+    document.getElementById("past").classList.add("show");
+    document.getElementById("future").classList.add("show");
+}

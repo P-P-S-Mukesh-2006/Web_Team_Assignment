@@ -1,17 +1,41 @@
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/04/43/65/51/360_F_443655165_oUlckDfLpED2V9uYEywTQvBW20ueGaMz.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:white;
+    
+}
+
 #Abt_head{
     text-align: center;
     font-size: 40px;
+    position:relative;
+    bottom:10px;
+    
 }
 
 .headings{
     text-align: center;
     font-size: 30px;
+    
+    text-shadow: 
+     1px 1px 0 #ff6b81,
+     2px 2px 0 #ff6b81,
+     3px 3px 0 #ff6b81;
 }
 
 .content{
     font-size: 20px;
-    padding-left:50px;
     
+    margin-left:90px;
+    margin-right:90px;
+    padding:20px 20px 20px 20px;
+    border:1px solid white;
+    border-radius:15px;
+}
+
+#goals-content{
+    list-style-position:inside;
 }
 
 #activities-content{

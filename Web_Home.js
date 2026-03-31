@@ -19,6 +19,14 @@ window.onclick=function(event) {
 window.onload = function(){
     document.getElementById("Home_head1").classList.add("show");
     document.getElementById("Home_head2").classList.add("show");
-    document.getElementById("intro").classList.add("show");
-    document.getElementById("purpose").classList.add("show");
+    const intro=document.getElementsByClassName("intro");
+    console.log(intro);
+    const purpose=document.getElementsByClassName("purpose");
+    for(let i=0; i<intro.length; i+=1){
+        intro[i].classList.add("show");
+    }
+    for(let i=0; i<purpose.length; i+=1){
+        purpose[i].classList.add("show");
+    }
+    
 }
