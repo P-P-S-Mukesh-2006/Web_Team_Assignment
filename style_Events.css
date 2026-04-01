@@ -1,25 +1,33 @@
 body{
-    background-image: url("https://t4.ftcdn.net/jpg/04/43/65/51/360_F_443655165_oUlckDfLpED2V9uYEywTQvBW20ueGaMz.jpg");
+    background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    color:white;
+    
 }
 
 .content{
     margin-left:90px;
     margin-right:90px;
     padding:20px 20px 20px 20px;
-    border:1px solid white;
+    border:2px solid yellow;
     border-radius:15px;
+    color:aqua;
 }
 
+b{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 2px;
+}
 #events{
     text-align: center;
     font-size:40px;
+    color:orange;
 }
 
 .headings{
     font-size:30px;
+    color:greenyellow;
 }
 
 #past{

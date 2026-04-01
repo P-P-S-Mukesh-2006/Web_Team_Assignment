@@ -10,22 +10,21 @@
 
     <body>
        <div id="dropdown">
-            <button class="dropbtn">
-                Menu <button id="arrow" class="dropbtn" onclick="toggleMenu()"><span>&#9662;</span></button>
-            </button>  
+            <p id="menu" onclick="toggleMenu()">Menu</p>
+            
         
-            <div id="dropdown-content" class="dropdown-content">
-            <a href="Home.html">Home<br></a>
-            <a href="About.html">About<br></a>
-            <a href="Events.html">Events<br></a>
-            <a href="Meet_the_Team.html"><span>Meet The Team<br></span></a>
-            <a href="Contact.html">Contact</a>
+            <div id="dropdown-content" class="dropdown-content" >
+            <p class="link"  onclick="location.href='Home.html'">Home</p>
+            <p class="link"  onclick="location.href='About.html'">About</p>
+            <p class="link" onclick="location.href='Events.html'">Events</p>
+            <p class="link" onclick="location.href='Meet_the_Team.html'"><span>Meet The Team<br></span></p>
+            <p class="link"  onclick="location.href='Contact.html'">Contact</p>
             </div> 
         </div>
         <form label="Contact" id="contact">
-            <p class="details">Name: <span><input type="text" label="name" id="name" placeholder="Enter your name"></span></p>
-            <p class="details">Email: <span><input type="email" label="email" id="email" placeholder="Enter your Email"></span></p>
-            <p class="details"><span id="msg">Message: </span><span><textarea id="message" placeholder="Enter Your Message Here"></textarea></span></p>
+            <p class="details">Name : <span><input type="text" label="name" id="name" class="input" placeholder="Enter your name"></span></p>
+            <p class="details">Email : <span><input type="email" label="email" id="email" class="input" placeholder="Enter your Email"></span></p>
+            <p class="details"><span id="msg">Message : </span><span><textarea id="message" class="input" placeholder="Enter Your Message Here"></textarea></span></p>
             <button type="submit" id="submitbtn">Submit</button>
         </form>
     </body>

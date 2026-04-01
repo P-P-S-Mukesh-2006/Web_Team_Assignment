@@ -8,17 +8,16 @@
     </head>
 
     <body>
-        <div id="dropdown">
-            <button class="dropbtn">
-                Menu <button id="arrow" class="dropbtn" onclick="toggleMenu()"><span>&#9662;</span></button>
-            </button>  
+       <div id="dropdown">
+            <p id="menu" onclick="toggleMenu()">Menu</p>
+            
         
-            <div id="dropdown-content" class="dropdown-content">
-            <a href="Home.html">Home<br></a>
-            <a href="About.html">About<br></a>
-            <a href="Events.html">Events<br></a>
-            <a href="Meet_the_Team.html"><span>Meet The Team<br></span></a>
-            <a href="Contact.html">Contact</a>
+            <div id="dropdown-content" class="dropdown-content" >
+            <p class="link"  onclick="location.href='Home.html'">Home</p>
+            <p class="link"  onclick="location.href='About.html'">About</p>
+            <p class="link" onclick="location.href='Events.html'">Events</p>
+            <p class="link"  onclick="location.href='Meet_the_Team.html'"><span>Meet The Team<br></span></p>
+            <p class="link"  onclick="location.href='Contact.html'">Contact</p>
             </div> 
         </div>
         <div id="past" class="animation" >
