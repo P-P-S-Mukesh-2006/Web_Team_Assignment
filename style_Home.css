@@ -1,9 +1,4 @@
-body{
-    background-image: url("background.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-}
+
 .Home_head{
     opacity:0;
     transform: translateY(20px);
