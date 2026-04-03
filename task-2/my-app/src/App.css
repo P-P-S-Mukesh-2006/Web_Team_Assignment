@@ -1,31 +1,107 @@
+/* Main Form Container */
+
+body{
+  background-image: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:100vh;  
+  background-position: center;
+  background-attachment: fixed;
+}
 
 form {
-  max-width: 400px;
-  margin: 30px auto;
-  padding: 15px;
-  background: white;
-  border-radius: 8px;
+    text-align: center;
+    position: relative;
+    top: 20px;
 }
 
-/* Inputs */
+/* Totals Section (Mirrors .Home_head and #intro) */
+.Dashboard_head {
+    opacity: 1; /* Set to 1 for immediate visibility or use .show logic */
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0px;
+    color: orange;
+}
+
+.total-summary {
+    position: relative;
+    margin: 40px 90px;
+    padding: 20px;
+    color: aqua;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+.total-summary p {
+    margin: 10px 0;
+    color: greenyellow;
+}
+
+/* Input Fields (Mirrors #name, #email, #message) */
 input, select {
-  width: 100%;
-  padding: 8px;
-  margin-top: 8px;
-  margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
 }
 
-/* Button */
-button {
-  width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  cursor: pointer;
+input[type="text"], input[type="number"], select {
+    width: 400px;
+    height: 40px;
 }
 
-/* Transactions */
-#output div {
-  border: 1px solid #ccc;
-  padding: 8px;
-  margin-top: 10px;
+/* Submit Button (Mirrors #submitbtn) */
+button[type="submit"] {
+    font-size: 20px;
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: black;
+    color: orange;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Transaction List (Mirrors #purpose-content) */
+#output {
+    position: relative;
+    top: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.transaction-card {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    color: aqua;
+    text-align: left;
+    font-size: 20px;
+}
+
+.output {
+    margin: 5px 0;
+}
+
+/* Edit/Delete Buttons */
+.transaction-card button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-right: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.transaction-card button:hover {
+    color: orange;
+    border-color: orange;
 }
