@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 
 function App() {
 
+  // In App.jsx
+
   const [form, setForm] = useState({
     money: "",
     description: "",
